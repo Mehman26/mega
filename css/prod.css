@@ -1,0 +1,255 @@
+body{
+    margin: 0 auto;
+}
+main{
+    width: 1290px;
+    margin: 0 auto;
+}
+header{
+    background: #FFFFFF;
+    box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.05);
+}
+.header_body{
+    display: flex;
+}
+.header_logo{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.header_nav .header_li:first-child{
+    margin-left: 110px;
+    margin-top: -13px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #28285A;
+}
+ul{
+    list-style: none;
+    display: flex;
+    margin-top: 40px;
+    padding: 0;
+}
+nav li{
+    margin-left: 80px; 
+}
+ul img:nth-child(1){
+    padding-right: 10px;
+}
+nav a{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: normal;
+    font-size: 16px;
+    color: #2B2B37;
+    text-decoration: none;
+}
+.header_body p{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
+    margin-left: 190px;
+    margin-top: 30px;
+}
+.nomer{
+    margin-bottom: 0;
+}
+ol{
+    width: 93px;
+    float: right;
+    margin-top: 0;
+    list-style: none;
+}
+ol li{
+    color: #2B2B37;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 12px;
+}
+ol a{
+    text-decoration: none;
+    color: #2B2B37;
+}
+hr{
+    margin: 0;
+}
+.tobari_top{
+    display: flex;
+    font-family: 'Ubuntu', sans-serif;
+    margin-top: 40px;
+}
+.tobari_top img{
+    height: 10px;
+    margin-top: 24px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.tobari_top p:nth-child(1){
+    color: #8E8E8E;
+    font-size: 18px;
+}
+.tobari_top p:last-child{
+    color: #28285A;
+    font-size: 18px;
+}
+.tobari h1{
+    font-size: 48px;
+    color: #28285A;
+    margin: 0;
+    margin-top: 40px;
+}
+.linge{
+    margin-top: 70px;
+    display: flex;
+}
+.linge_ul{
+    display: block;
+    padding: 20px 20px 20px 20px;
+    border: solid #EEEEEE;
+    background-color: #F8F8F8;
+    width: 260px;
+}
+.linge_ul li{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 16px;
+    color: #2B2B37;
+    margin-bottom: 20px;
+}
+.linge_ul li img{
+    float: right;
+    padding-right: 0;
+}
+.linge_ul li:last-child{
+    margin-bottom: 0;
+}
+.linge_ul hr{
+    margin-bottom: 20px;
+}
+.img_leks{
+    display: none;
+}
+.flog_li:hover .img_leks{
+    display: block;
+    transition: 200ms;
+}
+.flog_li:hover .img_from{
+    display: none;
+    transition: 160ms;
+}
+.flog_menu{
+    display: none;
+}
+.flog_li{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 16px;
+}
+.flog_a{
+    color: #C4C4C4;
+    text-decoration: none;
+}
+.flog_a:hover{
+    color: #2B2B37;
+    text-decoration: underline;
+    transition: 200ms;
+}
+.flog_li:hover .flog_menu{
+    display: block;
+    transition: 226ms;
+}
+.popylar_item{
+    width: 300px;
+    margin-left: 28px;
+}
+.popylar_text p{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 18px;
+}
+.popylar_text p:nth-child(2){
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 18px;
+}
+.popylar_ul{
+    margin-top: 0;
+    float: right;
+    margin-top: -40px;
+    display: none;
+}
+.popylar_a{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 18px;
+    color: #28285A;
+}
+.popylar_ul img{
+    width: 15px;
+    height: 15px;
+    margin-left: 10px;
+}
+.pop_ul{
+    margin: auto;
+    background-color: #28285A;
+    width: 300px;
+    margin-bottom: 100px;
+}
+.pop_li{
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 18px;
+    align-items: center;
+    margin-top: 18px;
+    margin-bottom: 17px;
+}
+.pop_li a{
+    margin-left: 90px;
+    color: #fff;
+    text-decoration: none;
+}
+.pop_ul img{
+    padding-top: 20px;
+    padding-left: 15px;
+    width: 15px;
+    height: 15px;
+}
+.popylar_text_ul{
+    display: none;
+}
+.popylar_item:hover .popylar_ul{
+    display: block;
+    transition: 200ms; 
+    display: flex;
+    margin-top: -37px;
+}
+.popylar_item:hover .popylar_text_ul{
+    display: block;
+    transition: 200ms; 
+    display: flex;
+    margin-top: 28px;
+}
+.popylar_flex{
+    margin-top: 40px;
+    display: flex;
+}
+.popylar_flex_2{
+    display: flex;
+    margin-top: 58px;
+}
+.popylar_flex_3{
+    display: flex;
+    margin-top: 58px;
+    margin-bottom: 150px;
+}
+footer{
+    background-color: #272A35;
+}
+.footer_bootom{
+    padding-top: 40px;
+    padding-bottom: 45px;
+    color: #fff;
+    font-family: 'Ubuntu', sans-serif;
+}
+.footer_bootom img{
+    float: right;
+    margin-top: -45px;
+}
+.prod_nav .prod_li:first-child{
+    margin-left: 165px;
+}
+
+
